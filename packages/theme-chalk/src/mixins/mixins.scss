@@ -1,0 +1,3 @@
+// 导入并且变成全局变量
+@use 'config' as *;
+@forward 'config'

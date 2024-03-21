@@ -6,7 +6,7 @@
 -->
 <template>
   Hello word component
-  <h-icon color="pink" :size="30">hello word!</h-icon>
+  <h-icon color="red" :size="19" class="h-icon-sshanchu">hello word!</h-icon>
 </template>
 
 <script lang="ts">

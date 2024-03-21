@@ -1,0 +1,109 @@
+@use './mixins/mixins.scss' as *;
+
+@font-face {
+  font-family: "h-ui-icons";
+  /* Project id 4476914 */
+  src: url('./fonts/iconfont.ttf') format('woff2'),
+    url('./fonts/iconfont.woff') format('woff'),
+    url('./fonts/iconfont.woff2') format('truetype');
+}
+
+[class^='#{$namespace}-icon'], [class*='#{$namespace}-icon'] {
+  font-family: "h-ui-icons" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.#{$namespace}-icon-sshangchuan:before {
+  content: "\e629";
+}
+
+.#{$namespace}-icon-shuiyuan:before {
+  content: "\e62a";
+}
+
+.#{$namespace}-icon-sxiazai:before {
+  content: "\e62b";
+}
+
+.#{$namespace}-icon-sbangong:before {
+  content: "\e62c";
+}
+
+.#{$namespace}-icon-sshanchu:before {
+  content: "\e62d";
+}
+
+.#{$namespace}-icon-szhuye:before {
+  content: "\e62e";
+}
+
+.#{$namespace}-icon-squanqiu:before {
+  content: "\e62f";
+}
+
+.#{$namespace}-icon-skaquan:before {
+  content: "\e630";
+}
+
+.#{$namespace}-icon-sdingwei:before {
+  content: "\e631";
+}
+
+.#{$namespace}-icon-sdaoru:before {
+  content: "\e632";
+}
+
+.#{$namespace}-icon-sfaxian:before {
+  content: "\e633";
+}
+
+.#{$namespace}-icon-ssousuo:before {
+  content: "\e634";
+}
+
+.#{$namespace}-icon-swode:before {
+  content: "\e635";
+}
+
+.#{$namespace}-icon-sdiannao:before {
+  content: "\e636";
+}
+
+.#{$namespace}-icon-sshoucang:before {
+  content: "\e637";
+}
+
+.#{$namespace}-icon-sxiangji:before {
+  content: "\e638";
+}
+
+.#{$namespace}-icon-sbofang:before {
+  content: "\e639";
+}
+
+.#{$namespace}-icon-sbi:before {
+  content: "\e63a";
+}
+
+.#{$namespace}-icon-sliuyan:before {
+  content: "\e63b";
+}
+
+.#{$namespace}-icon-swenjian:before {
+  content: "\e63c";
+}
+
+.#{$namespace}-icon-szan:before {
+  content: "\e63d";
+}
+
+.#{$namespace}-icon-sshezhi:before {
+  content: "\e63e";
+}
+
+.#{$namespace}-icon-sfuli:before {
+  content: "\e63f";
+}

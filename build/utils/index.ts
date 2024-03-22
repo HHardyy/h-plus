@@ -35,4 +35,10 @@ export const run = async (_command: string) => {
   })
 }
 
+export const pathRewWriter = (format: string) => {
+  return (id: string) => {
+    return id.replaceAll('@h-plus', `h-plus/${format}`)
+  }
+}
+
 export { }

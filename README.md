@@ -61,8 +61,12 @@ pnpm install gulp-sass @types/gulp-sass @types/sass @types/gulp-autoprefixer gul
 
 ⚠️ 打包之后成了js文件， 那么组件在引入的时候就会失去提示， 那么可以使用[ts-morph包](https://ts-morph.com/emiting)
 
-### 3、统一打包入口阶段（统一入口h-plus）
+### 3、统一打包入口, 打包所有组件阶段（统一入口h-plus）
 安装依赖
 ```bash
 pnpm install rollup @rollup/plugin-node-resolve @rollup/plugin-commonjs rollup-plugin-typescript2 rollup-plugin-vue -D -w
+```
+### 4、统一打包入口， 打包单个组件阶段（统一入口h-plus）
+```bash
+pnpm install fast-glob -w -D
 ```

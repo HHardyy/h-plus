@@ -24,7 +24,7 @@ export const buildConfig = {
       path: path.resolve(bundleDir, 'lib')
     },
     bundle: {
-      path: 'vue3-component/lib'
+      path: 'h-plus/lib'
     }
   }
 }

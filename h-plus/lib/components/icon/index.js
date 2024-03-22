@@ -3,6 +3,7 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 
 var vue = require('vue');
+var withInstall = require('h-plus/lib/utils/with-install');
 
 const iconProps = {
     size: {
@@ -38,14 +39,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 script.render = render;
 script.__file = "packages/components/icon/src/icon.vue";
 
-const _withInstall = (comp) => {
-    comp.install = function (app) {
-        app.component(comp.name, comp);
-    };
-    return comp;
-};
-
-const HIcon = _withInstall(script);
+const HIcon = withInstall._withInstall(script);
 
 exports.HIcon = HIcon;
 exports.default = HIcon;

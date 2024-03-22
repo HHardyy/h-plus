@@ -41,9 +41,9 @@ packages/h-plus
 ```bash
 pnpm install vue@latest typescript -D
 
-pnpm install @vue3-component/components -w
-pnpm install @vue3-component/theme-chalk -w
-pnpm install @vue3-component/utils -w
+pnpm install @h-plus/components -w
+pnpm install @h-plus/theme-chalk -w
+pnpm install @h-plus/utils -w
 ```
 cd example
 ```bash
@@ -69,4 +69,13 @@ pnpm install rollup @rollup/plugin-node-resolve @rollup/plugin-commonjs rollup-p
 ### 4、统一打包入口， 打包单个组件阶段（统一入口h-plus）
 ```bash
 pnpm install fast-glob -w -D
+```
+### 5、打包js之后代码没有提示
+```bash
+pnpm install ts-morph -w -D
+```
+
+需要安装一个@vue/compiler-sfc来解析vue文件
+```bash
+pnpm install @vue/compiler-sfc -w -D
 ```

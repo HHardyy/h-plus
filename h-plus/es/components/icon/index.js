@@ -1,4 +1,5 @@
 import { defineComponent, computed, openBlock, createElementBlock, normalizeStyle, renderSlot } from 'vue';
+import { _withInstall } from 'h-plus/es/utils/with-install';
 
 const iconProps = {
     size: {
@@ -33,13 +34,6 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
 script.render = render;
 script.__file = "packages/components/icon/src/icon.vue";
-
-const _withInstall = (comp) => {
-    comp.install = function (app) {
-        app.component(comp.name, comp);
-    };
-    return comp;
-};
 
 const HIcon = _withInstall(script);
 

@@ -26,6 +26,7 @@ export const run = async (_command: string) => {
     const [cmd, ...args] = _command.split(' ')
     console.log('projectRootDir: ', projectRootDir)
     console.log(cmd, args)
+    console.log('process.env.SHELL:', process.env.SHELL)
     const _progress = spawn(cmd, args, {
       cwd: projectRootDir,
       stdio: 'inherit',

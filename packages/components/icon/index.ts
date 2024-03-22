@@ -5,7 +5,7 @@
  * @Description:
  */
 import Icon from "./src/icon.vue";
-import { _withInstall } from '@vue3-component/utils/with-install'
+import { _withInstall } from '@h-plus/utils/with-install'
 
 const HIcon = _withInstall(Icon)
 

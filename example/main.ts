@@ -6,8 +6,8 @@
  */
 import { createApp } from 'vue'
 import App from './App.vue'
-import HIcon from '@vue3-component/components/icon'
-import '@vue3-component/theme-chalk/src/index.scss'
+import HIcon from '@h-plus/components/icon'
+import '@h-plus/theme-chalk/src/index.scss'
 
 const app = createApp(App)
 

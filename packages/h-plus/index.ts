@@ -1,4 +1,4 @@
-import { HIcon } from '@vue3-component/components'
+import { HIcon } from '@h-plus/components'
 import type { App } from 'vue'
 
 const _components = [HIcon]
@@ -10,4 +10,4 @@ const _install = (app: App) => {
 }
 
 export default { install: _install }
-export * from '@vue3-component/components'
+export * from '@h-plus/components'

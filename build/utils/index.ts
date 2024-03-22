@@ -13,7 +13,7 @@ import { projectRootDir } from "./path"
  * @return {*}
  * @desc:
  */
-export const _withTashname = <T>(name: string, fn: T) => Object.assign(fn, { displayName: name })
+export const _withTashname = <T extends object>(name: string, fn: T) => Object.assign(fn, { displayName: name })
 
 /**
  * @name:
@@ -34,3 +34,5 @@ export const run = async (_command: string) => {
     _progress.on('close', resolve)
   })
 }
+
+export { }
